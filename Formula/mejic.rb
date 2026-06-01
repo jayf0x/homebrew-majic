@@ -5,12 +5,6 @@ class Mejic < Formula
   sha256 "db5ad00e6cd028667cc3f8c837830a035ed636aac0ef69bccde70c5d4c49e92e"
   version "0.1.1"
 
-  on_arm do
-    def install
-      bin.install "Mejic"
-    end
-  end
-
   def install
     bin.install "Mejic"
   end
@@ -20,14 +14,11 @@ class Mejic < Formula
       Mejic is a menu bar app. Launch it with:
         Mejic
 
-      To start Mejic automatically on login:
+      Start automatically on login:
         osascript -e 'tell application "System Events" to make login item at end with properties {path:"#{HOMEBREW_PREFIX}/bin/Mejic", hidden:false}'
 
-      To remove from Login Items:
+      Remove from Login Items:
         osascript -e 'tell application "System Events" to delete login item "Mejic"'
-
-      To uninstall completely:
-        brew uninstall mejic
     EOS
   end
 

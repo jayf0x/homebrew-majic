@@ -1,9 +1,9 @@
 class Mejic < Formula
   desc "Menu bar app that adds custom right-click actions to Finder via macOS Services"
   homepage "https://github.com/jayf0x/majic"
-  url "https://github.com/jayf0x/majic/releases/download/vVERSION_PLACEHOLDER/Mejic-VERSION_PLACEHOLDER-arm64.zip"
-  sha256 "SHA256_PLACEHOLDER"
-  version "VERSION_PLACEHOLDER"
+  url "https://github.com/jayf0x/majic/releases/download/v0.1.1/Mejic-0.1.1-arm64.zip"
+  sha256 "db5ad00e6cd028667cc3f8c837830a035ed636aac0ef69bccde70c5d4c49e92e"
+  version "0.1.1"
 
   on_arm do
     def install
